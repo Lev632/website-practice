@@ -6,6 +6,7 @@
       .search-bar {
         width: 80px;
         margin-bottom: 5px;
+        display: block;
       }
       .firstImg {
         width: 300px;
@@ -15,13 +16,32 @@
 
       .title {
       }
+
+      .video-preview {
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
-    <img class="firstImg" src="images/download 2.jpeg" />
-    <p class="title">HTML & CSS Full Course - Beginner to Pro</p>
-    <p class="video-author">SuperSimpleDev</p>
-    <p class="video-stats">9.8M views 2 years ago</p>
+    
+    <div class="video-preview">
+      <img class="firstImg" src="images/download 2.jpeg" />
+      <p class="title"><strong>HTML & CSS</strong> Full Course - Beginner to Pro</p>
+      <p class="video-author">SuperSimpleDev</p>
+      <p class="video-stats">9.8M views 2 years ago</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="firstImg" src="images/download.jpeg" />
+      <p class="title"><strong>HTML & CSS</strong> Full Course - Beginner to Pro</p>
+      <p class="video-author">SuperSimpleDev</p>
+      <p class="video-stats">9.8M views 2 years ago</p>
+    </div>
+
   </body>
 </html>
